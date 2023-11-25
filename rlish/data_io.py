@@ -48,11 +48,10 @@ def load(filename,format=None):
     try:
         with open(filename + '.meta', 'r') as metafile:
             format_read = metafile.read().strip()
+            format = format_read
     except FileNotFoundError:
         # raise FileNotFoundError("Metadata file not found. Cannot determine the serialization format.")
         None
-
-    format = format_read if format is None else format
 
     # Load the data using the determined format
     if format == 'joblib':
