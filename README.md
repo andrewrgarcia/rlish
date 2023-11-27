@@ -2,7 +2,7 @@
 
 Saving and loading information in Python should be shorter and easier
 
-<img src="img/art.png" width="300" title="hover text">
+<img src="https://raw.githubusercontent.com/andrewrgarcia/rlish/main/img/art.png" width="300" title="hover text">
   
 
 `rlish` is a Python package for simple and efficient data serialization and deserialization. It supports both `pickle` and `joblib` serialization methods, making it suitable for a wide range of data types, including large NumPy arrays and machine learning models.
