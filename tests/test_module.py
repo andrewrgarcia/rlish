@@ -7,7 +7,7 @@ class TestRlishModule(unittest.TestCase):
     def setUp(self):
         """Setup a temporary dataset for testing."""
         self.test_data = {'a': 1, 'b': 2, 'c': 3}
-        self.test_joblib = np.random.randint(0,10,(200,200,200))
+        self.test_joblib = np.random.randint(0,10,(400,400,400))
 
         self.filename_pickle = 'test_data.pkl'
         self.filename_joblib = 'test_data.joblib'
@@ -26,7 +26,6 @@ class TestRlishModule(unittest.TestCase):
 
         # Cleanup
         os.remove(self.filename_pickle)
-        os.remove(self.filename_pickle + '.meta')
 
     def test_save_and_load_joblib(self):
         """Test the save and load functions with joblib."""
@@ -41,7 +40,6 @@ class TestRlishModule(unittest.TestCase):
         np.allclose(self.test_joblib, loaded_data)
         # Cleanup
         os.remove(self.filename_joblib)
-        os.remove(self.filename_joblib + '.meta')
 
     # Add more tests here if needed
 

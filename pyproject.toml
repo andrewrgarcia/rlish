@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "rlish"
-version = "0.1.1"
+version = "1.0.0"
 description = ""
 authors = ["Andrew Garcia <garcia.gtr@gmail.com>"]
 readme = "README.md"
