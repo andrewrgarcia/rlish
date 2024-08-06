@@ -20,7 +20,7 @@ pip install rlish
 ```
 
 ## Usage
-        self.test_joblib = np.random.randint(0,10,(400,400,400))
+
 
 ### Saving Data
 
