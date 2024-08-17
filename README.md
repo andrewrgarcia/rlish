@@ -1,5 +1,9 @@
 # rlish
 
+[![License](https://img.shields.io/badge/license-%20%20GNU%20GPLv3%20-green?style=plastic)](https://raw.githubusercontent.com/andrewrgarcia/voxelmap/main/LICENSE)
+[![Documentation Status](https://readthedocs.org/projects/rlish/badge/?version=latest)](https://rlish.readthedocs.io/en/latest/?badge=latest)
+
+
 Saving and loading information in Python should be shorter and easier
 
 <img src="https://raw.githubusercontent.com/andrewrgarcia/rlish/main/img/rlish.svg" width="300" title="hover text">
