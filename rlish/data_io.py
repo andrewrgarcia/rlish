@@ -9,16 +9,16 @@ def save(data, filename, format='pickle'):
     How it works:
         - Internally saves your data and its format (pickle or joblib) using integrated format header. 
         - Saves as 'pickle' by default
+
     Parameters
     ----------------------
-    data: (user-defined)
+    data : user-defined
         The data you want to save as a file.
-    filename: string
+    filename : str
         Where you want to save your data - just give me the file name.
-    format: string
+    format : str, optional
         Choose 'pickle' or 'joblib' to save your data. 'pickle' is the default. Tip: Use 'joblib' if you're dealing with large arrays and/or machine learning models.
     """
-
     # Initialize a buffer for serialized data
     serialized_data = io.BytesIO()
 
@@ -49,7 +49,7 @@ def load(filename, what_is=False):
         Your data, just as you saved it. No fuss, no muss.
 
     Parameters
-    ----------
+    ----------------------
     filename : str
         The name of the file you want to load your data from.
     what_is : bool
