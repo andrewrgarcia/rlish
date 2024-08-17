@@ -1,12 +1,10 @@
-# rlish
+<img src="https://raw.githubusercontent.com/andrewrgarcia/rlish/main/img/rlish.svg" width="300" title="hover text">
 
 [![License](https://img.shields.io/badge/license-%20%20GNU%20GPLv3%20-green?style=plastic)](https://raw.githubusercontent.com/andrewrgarcia/voxelmap/main/LICENSE)
 [![Documentation Status](https://readthedocs.org/projects/rlish/badge/?version=latest)](https://rlish.readthedocs.io/en/latest/?badge=latest)
 
 
-Saving and loading information in Python should be shorter and easier
-
-<img src="https://raw.githubusercontent.com/andrewrgarcia/rlish/main/img/rlish.svg" width="300" title="hover text">
+Saving and loading information in Python should be shorter and easier.
 
 
 `rlish` is a Python package for simple and efficient data serialization and deserialization. It supports both `pickle` and `joblib` serialization methods, making it suitable for a wide range of data types, including large NumPy arrays and machine learning models.
